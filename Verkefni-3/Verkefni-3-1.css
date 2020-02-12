@@ -6,7 +6,7 @@ body{
     "vinstri vinstri vinstri midja haegri"
     "fotur fotur fotur fotur fotur";
 }
-.header{
+.head{
     grid-area: haus;
     border: 2px solid black;
     border-bottom: 2px;
@@ -34,19 +34,19 @@ body{
     border-bottom: 0px;
     background-color:  white;
 }
-.main{
+.adal{
     grid-area: vinstri;
     border-top: 2px solid black;
     border-left: 2px solid black;
     padding: 15px;
     color: black;
 }
-.i_midju{
+.mid{
     border: black solid 2px;
     padding: 10px;
     margin: 40px;
 }
-.aside{
+.hlid{
     grid-area: haegri;
     border: 2px solid black;
     border-bottom: 0px;
@@ -54,7 +54,7 @@ body{
     padding: 15px;
     background-color:  white;
 }
-.footer{
+.foot{
     grid-area: fotur;
     border: 2px solid black;
     display: flex;
