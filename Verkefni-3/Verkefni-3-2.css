@@ -1,0 +1,82 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus valmynd"
+    "vinstri midja haegri haegri haegri"
+    "fotur fotur fotur fotur fotur";
+}
+.header{
+    grid-area: haus;
+    border: 2px solid black;
+    border-bottom: 0px black solid;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: white;
+    color: black solid;
+}
+.navbar{
+    grid-area: valmynd;
+    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px;
+    border-left: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    background-color: white;
+}
+.article{
+    grid-area: vinstri;
+    border: 2px solid black;
+    border-top: 2px black solid;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding: 15px;
+    background-color: white;
+}
+.main{
+    grid-area: midja;
+    border-left: 2px black solid;
+    border-top: 2px black solid;
+    padding: 15px;
+    color: black solid;
+}
+.i_midju{
+    border:black solid 2px;
+    padding: 10px;
+    margin: 30px;
+}
+.aside{
+    grid-area: haegri;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-top: 2px black solid;
+    padding: 15px;
+    background-color: white;
+    color: black solid;
+}
+.footer{
+    grid-area: fotur;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+li.nostyle {
+    list-style-type: none;
+}
+h1{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
