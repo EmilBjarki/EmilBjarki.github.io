@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "fotur fotur fotur fotur fotur"
+    "vinstri vinstri midja haegri haegri";
+}
+.head{
+    background: white;
+    grid-area: haus;
+    border: 2px black solid;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.navbar{
+    grid-area: valmynd;
+    border: 2px black solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+}
+.article{
+    grid-area: vinstri;
+    border: 2px black solid;
+    border-top: 0px black solid;
+    border-bottom: 2px black solid;
+    padding: 15px;
+    background: white;
+}
+.adal{
+    grid-area: midja;
+    border-top: 0px black solid;
+    border-bottom: 2px black solid;
+    padding: 15px
+}
+.mid{
+    border: 2px black solid;
+    padding: 10px;
+    margin: 30px;
+    background: white;
+}
+.hlid{
+    grid-area: haegri;
+    border: 2px black solid;
+    border-bottom: 2px black solid;
+    border-top: 0px black solid;
+    padding: 15px;
+    background: white;
+}
+.footer{
+    grid-area: fotur;
+    border: 2px black solid;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+}
+p{
+    font-family: sans-serif;
+}
+h1{
+    font-family: sans-serif;
+}
