@@ -174,5 +174,8 @@ Viðmið - breakpoints 60em = 960px +
 Viðmið - breakpoints 80em = 1280px +
 ======================================== */
  @media screen and (min-width:80em) {
-
-        }
+   .body {
+     max-width: 80em;
+     margin: 0 auto;
+   }
+ }
