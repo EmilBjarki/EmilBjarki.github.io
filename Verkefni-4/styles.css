@@ -158,12 +158,12 @@ Viðmið - breakpoints 48em = 768px +
 /* ========================================
 Viðmið - breakpoints 60em = 960px +
 ======================================== */
-  @media screen and (min-width:60em) {
-    .main {
-        display: grid;
-        grid-template-areas:
-          "vinstri midja haegri";
-        grid-auto-columns: 1fr 2fr 1fr;
+@media screen and (min-width:60em) {
+  .main {
+    display: grid;
+    grid-template-areas:
+      "vinstri midja haegri";
+    grid-auto-columns: 1fr 2fr 1fr;
   }
   .myndabox {
     display: grid;
@@ -173,9 +173,9 @@ Viðmið - breakpoints 60em = 960px +
 /* ========================================
 Viðmið - breakpoints 80em = 1280px +
 ======================================== */
- @media screen and (min-width:80em) {
-   .body {
-     max-width: 80em;
-     margin: 0 auto;
-   }
- }
+@media screen and (min-width:80em) {
+  .body {
+    max-width: 80em;
+    margin: 0 auto;
+  }
+}
