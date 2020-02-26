@@ -170,3 +170,9 @@ Viðmið - breakpoints 60em = 960px +
     grid-template-columns: repeat(4, 1fr);
   }
 }
+/* ========================================
+Viðmið - breakpoints 80em = 1280px +
+======================================== */
+ @media screen and (min-width:80em) {
+
+        }
