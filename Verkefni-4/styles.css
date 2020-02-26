@@ -139,8 +139,8 @@ Viðmið - breakpoints 37.5em = 600px +
   .main {
     display: grid;
     grid-template-areas:
-      "vinstri midja"
-      "haegri midja";
+      "haegri midja"
+      "vinstri midja";
     grid-auto-columns: 1fr 2fr;
   }
 }
