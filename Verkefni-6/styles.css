@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom, #024386, #001933);
+    color: #444;
+    font: 400 1em/1.5 'Zilla Slab';
+}
+.container{
+    margin: 0 auto;
+    max-width: 60em;
+    padding: 0;
+    margin-top: 1em;
+}
+header h1{
+    font-size: 3em;
+    margin: .5em 0;
+    text-align: left;
+}
+.beige{
+    background: linear-gradient(to top, #F7D37E, #f6f1d3);
+    padding: 1em;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+.beige2{
+    background: linear-gradient(to top, #F7D37E, #f6f1d3);
+    padding: 1em;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 3em;
+}
+.col-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap {
+    grid-gap: 4em;
+}
+.textcolor{
+    color: white;
+    margin-top: 5em;
+}
+.textcolor a{
+    color: white;
+}
+h2, h3, h4{
+    font-family: 'Zilla Slab', serif;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5em;
+}
+.verkefni{
+    padding-right: 5em;
+    margin-top: 2em;
+    text-align: right;
+    color: #F7D37E;
+}
+.topnav{
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4em;
+    font-size: 1.5em;
+}
+.frontpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 1em;
+}
+.circle{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    align-items: center;
+    border-radius: 50%;
+    width: 40em;
+    height: 40em;
+    background-color: #3496ff;
+    background: radial-gradient(#024386, #3496ff, #024386);
+    text-align: center;
+}
+.circle h1{
+    font-family: 'Indie Flower', cursive;
+    color: #F7D37E;
+    font-size: 5em;
+    line-height: .8em;
+    margin: 1em 0 0 0;
+}
+.frikka{
+    display: grid;
+    border: 0;
+    margin-bottom: 2em;
+}
+.frikka h1{
+    font-family: 'Indie Flower', cursive;
+    color: #024386;
+    font-size: 6em;
+    margin: 0;
+    text-align: center;
+}
+.circle a{
+    display: block;
+    width: 8em;
+    margin: -3.8em auto 0 auto;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: .4em;
+    padding: .5em;
+    background: linear-gradient(to top, #024386, #0064CE, #001933);
+    text-decoration: none;
+}
+.topnav a{
+    padding: 0 0 0 3em;
+    color: white;
+}
+.blockqoute{
+    background: linear-gradient(to top, rgb(248, 226, 175), #faf8eb);
+}
+html{
+    scroll-behavior: smooth;
+}
+.h3{
+    font-size: 1.5em;
+}
+.topbutt{
+    background-color: #0064CE;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2.5em;
+    display: block;
+    margin: auto;
+    width: 1.5em;
+}
+.topbutt:active, .topbutt:hover{
+    background-color: #fff;
+    color: #0064ce;
+}
+.margintop {
+    font-size: 2.5em;
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+.innermenu{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    background-color: #0064CE;
+}
+.innermenu a {
+    border-width: 0 1px 0 0;
+    color: white;
+}
+.innermenu a:last-child{
+    border: none;
+}
+.innermenu a:active, .innermenu a:hover{
+    background-color:#F7D37E;
+}
