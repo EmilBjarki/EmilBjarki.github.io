@@ -5,3 +5,4 @@
 4. [Verkefni 4](https://EmilBjarki.github.io/Verkefni-4/index4.html)
 5. [Verkefni 5](https://EmilBjarki.github.io/Verkefni-5/index5.html)
 6. [Verkefni 6](https://EmilBjarki.github.io/Verkefni-6/index6.html)
+7. [Verkefni 7](https://EmilBjarki.github.io/Verkefni-7/index7.html)
